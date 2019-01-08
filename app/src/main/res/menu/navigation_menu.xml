@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+ <item android:id="@+id/nav_subjects"
+     android:icon="@mipmap/baseline_library_books_black_18dp"
+     android:title="@string/subjects"/>
+    <item android:id="@+id/nav_facts"
+        android:icon="@mipmap/baseline_note_black_18dp"
+        android:title="@string/facts"/>
+    <item android:id="@+id/nav_quizzes"
+        android:icon="@mipmap/baseline_assignment_black_18dp"
+        android:title="@string/quizzes"/>
+    <item android:id="@+id/nav_games"
+        android:icon="@mipmap/baseline_description_black_18dp"
+        android:title="@string/games"/>
+   <item android:id="@+id/nav_feedback"
+        android:icon="@mipmap/baseline_feedback_black_18dp"
+        android:title="@string/send_feedback"/>
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@mipmap/baseline_share_black_18dp"
+        android:title="@string/share"
+        app:showAsAction="always" />
+    <item android:id="@+id/nav_about"
+        android:icon="@mipmap/baseline_info_black_18dp"
+        android:title="@string/about"/>
+   <item
+       android:id="@+id/nav_settings"
+       android:icon="@mipmap/baseline_settings_black_18dp"
+       android:title="@string/settings" />
+
+</menu>

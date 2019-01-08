@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:elevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvsubjectTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/title"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:id="@+id/not"
+            android:layout_below="@+id/tvsubjectTitle"
+            android:background="@color/colorPrimary"/>
+        <TextView
+            android:id="@+id/tvsyllabus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/syllabus"
+            android:layout_below="@+id/not"
+            android:textSize="14sp"
+            />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
