@@ -24,12 +24,18 @@ public class FactActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // Todo 1 set content should be set first before finding any view  ------------------------------------
+        // ie layout must be set first before accessing its children views  ------------------------------------
+
+
+        setContentView(R.layout.activity_fact);
+        text = findViewById(R.id.tvfact);
+
         for (int i = 0; i < days; i++) {
             facts[i] = Facts.prevDaily(getApplicationContext(), i);
-            text = findViewById(R.id.tvfact);
             text.setText(facts[i]);
         }
-        setContentView(R.layout.activity_fact);
+
         setupUIViews();
         //randomColor();
     }

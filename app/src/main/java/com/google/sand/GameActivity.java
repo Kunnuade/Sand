@@ -81,7 +81,10 @@ public class GameActivity extends AppCompatActivity {
                 description = (TextView) convertView.findViewById(R.id.tvDescription);
                 imageView = (ImageView) convertView.findViewById(R.id.ivmain);
 
-                title.setText(titleArray[position-1]);
+                // TODO 2 i chnage this line to the next line
+                // Error was caused due to: java.lang.ArrayIndexOutOfBoundsException: length=11; index=-1
+//                title.setText(titleArray[(position-1)]);
+                title.setText(titleArray[(position)]);
                 description.setText(descriptionArray[position]);
                 if (titleArray[position].equalsIgnoreCase("Bodmas")) {
                     imageView.setImageResource(R.drawable.ic_info_black_24dp);
