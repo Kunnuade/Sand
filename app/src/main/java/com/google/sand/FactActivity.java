@@ -16,6 +16,7 @@ import android.widget.TextView;
 import java.util.Random;
 
 public class FactActivity extends AppCompatActivity {
+
     int days = 30;
     String[] facts = new String[days];
     private TextView text;
