@@ -485,6 +485,7 @@ public final class Facts {
             edit.putInt(dateString, v);
             edit.apply();
             return facts[v];
+
         }
 
     }
