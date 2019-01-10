@@ -465,6 +465,7 @@ public final class Facts {
     }
 
 
+
     public static String randFact() {
         return facts[(new Random()).nextInt(facts.length) + 1];
     }
