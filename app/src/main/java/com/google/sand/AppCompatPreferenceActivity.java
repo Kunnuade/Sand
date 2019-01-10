@@ -27,6 +27,7 @@ public abstract class AppCompatPreferenceActivity extends PreferenceActivity {
         super.onCreate(savedInstanceState);
     }
 
+
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
